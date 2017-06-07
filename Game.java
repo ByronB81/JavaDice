@@ -10,7 +10,7 @@ public class Game {
   public void playTurn(){
     int result1 = die1.roll();
     player1.score += result1;
-    System.out.println(player1.score);
+    System.out.println(String.format("You rolled a %d and your score is now %d", result1, player1.score));
   }
 
 

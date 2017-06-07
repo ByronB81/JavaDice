@@ -8,12 +8,12 @@ public class App {
 
     while (appRunning){
       myGame.playTurn();
-      System.out.println("Would you like to 'roll' or 'exit'?");
+      System.out.println("'roll again' or 'exit'?");
       String navResponse = console.readLine();
       if (navResponse.equals("exit")){
         appRunning = false;
       }
     }
-    
+
   }
 }
